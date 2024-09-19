@@ -1,0 +1,131 @@
+body {
+  background: #e6f7e8;
+  font-family: "Times New Roman", Times, serif;
+  margin: 25px;
+  padding: 0%;
+}
+
+form {
+  background-color: #f4f4f4;
+  /* Light Gray */
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 1 0 10px rgba(0, 0, 0, 1); */
+  width: auto;
+  margin: auto;
+  border-radius: 9px;
+  border: 4px solid #3498bd;
+  border-color: #3498bd;
+  
+}
+
+form:hover {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1:hover {
+  color: #007BFF;
+}
+
+fieldset {
+  border: 2px solid #3498bd;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  /* box-shadow: 1 0 10px rgba(0, 0, 0, 1); */
+  background-color: green;
+}
+
+button:hover{
+  color: #007BFF;
+}
+
+legend {
+  text-align: center;
+  color: blueviolet;
+}
+/* //resume car designing */
+.resume-card {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgb(68, 39, 39);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  white-space: initial;
+
+  
+}
+.form-group {
+  margin-bottom: 15px;
+}
+input[type="file"] {
+  padding: 5px;
+}
+.profile-pic {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.resume-card h2 {
+  color: #e68888;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.resume-card p, .resume-card ul {
+  margin: 10px 0;
+  color: white;
+  border-color: #000000;
+  border: 2px solid  bisque;
+}
+
+.resume-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.resume-card .section-title {
+  color: #007bff;
+  font-weight: bold;
+  margin-top: 20px;
+}
+strong{
+  color: rgb(125, 151, 133);
+}
+strong:hover{
+  color: rgb(154, 0, 64);
+}
+span:hover{
+  color: #e68888;
+}
+span{
+  color: rgb(99, 119, 152);
+}
+
+  
+
+
+body {
+  height: 3px;
+}
+
+
+
+img.pfp {
+  height: 300px;
+  width: 250px;
+  padding-left: 0px;
+  border: rgb(180, 172, 172) solid 5px;
+  border-radius: 500px;
+ 
+}
+

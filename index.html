@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="resume.css" />
+</head>
+
+
+<body>
+  <h1>Dynamic Resume Builder by Asharib</h1>
+
+  <form id="resume-form">
+    <fieldset>
+      <legend>Personal-Info</legend>
+
+      
+      <label for="name">Name   :</label>
+      <input type="text" id="name" name="name" required /><br>
+      <label for="FullName">Fullname   :</label>
+      <input type="text" id="fullname" name="Fullname" required /><br>
+      <label for="Mail">Email   :</label>
+      <input type="email" id="email" name="Email" required /><br>
+      <label for="phone">Phone   :</label>
+      <input type="Contact" id="phone" name="Number" required />
+      <div class="form-group">
+        <label for="profile-pic">Profile Picture   :</label>
+        <input type="file" id="profile-pic" class="pfp" alt="Somthing went wrong" src ="image/*">
+    </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Education</legend>
+      <label for="EDu">Education   :</label><br>
+      <textarea name="Education*" rows="2"  id="education"></textarea><br>
+      <label for="Field"> Field  :</label>
+      <input type="text" id="field" name="Field" required /><br>
+      <label for="Degree">Degree   :</label>
+      <input type="text" id="degree"   /><br>
+      <label for="Uni">Uni   :</label>
+      <input type="text" id="university"  /><br>
+      <label for="Certificate">Certification   :</label>
+      <input type="text" id="certificate"  />
+    </fieldset>
+    <fieldset>
+      <legend>Experience</legend>
+      <textarea name="Experince" rows="4" id="exp" required="Exp"> </textarea>
+    </fieldset>
+    <fieldset>
+      <legend>Skills</legend>
+      <input type="text" id="skill" required>
+    </fieldset>
+    <button id="submit" name="submit">Generate Your Cv</button>
+  </form>
+ 
+  
+<div id="resume" class="resume-card"></div>
+  <script src="script.js"></script>
+  <button id="Unique" ></button>
+  <!-- <button class="loadBtn" id="Download">Download as Pdf</button> -->
+</body>
+
+</html>
